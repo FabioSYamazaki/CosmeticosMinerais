@@ -1,0 +1,92 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Cosméticos Minerais</title>
+        <link rel="icon" type="image/x-icon" href="950102.png"/>
+        <link rel="stylesheet" href="estilo.css"/>
+        <link rel="stylesheet" href="historia.css"/>
+    </head>
+    <body>
+        <script src="_javascript/funcoes.js"></script>
+        <div id="interface">    
+            <header id="cabecalho">
+                <hgroup> 
+                    <h1>Cosméticos Minerais</h1>
+                    <h2>GSA0418 - Geologia Econômica</h2>
+                </hgroup> 
+
+                <nav id="menu">
+                    <h1>Menu Principal </h1>
+                    <ul type="disc">
+                        <li onmouseover="mudaFoto('home.png')" onmouseout="voltarFoto()"><a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('historia.png')" onmouseout="voltarFoto()"><a href="historia.html">História</a></li>
+                        <li onmouseover="mudaFoto('mineral.png')" onmouseout="voltarFoto()"><a href="principaisminerais.html">Minerais</a></li>
+                        <li onmouseover="mudaFoto('market.png')" onmouseout="voltarFoto()"><a href="mercado.html">Mercado</a></li>
+                        <li onmouseover="mudaFoto('document.png')" onmouseout="voltarFoto()"><a href="relatorio.html">Relatório</a></li>
+                        <li onmouseover="mudaFoto('refbb.png')" onmouseout="voltarFoto()"><a href="refbb.html">Ref. Bibliográficas</a></li>
+                        <li onmouseover="mudaFoto('mail.png')" onmouseout="voltarFoto()"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>  
+                <img id="icone" src="" alt=""/>
+            </header>   
+            <section id="corpo2">  
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3>
+                                Cosméticos Minerais > Contato
+                            </h3>
+                            <h1>
+                                E-mails para contato
+                            </h1>
+                            
+                        </hgroup>
+                    </header>
+                    <p>
+                        Fabio Shunji Yamazaki &nbsp;&nbsp;&nbsp;<input type="button" value="Número USP" onclick="nusp(1)"> <input type="button" value="E-mail" onclick="mail(1)"> <input type="text" name="" id="fsy" readonly>
+                    </p>
+                    <p>
+                        Leonardo Gomes Diass &nbsp;&nbsp;<input type="button" value="Número USP" onclick="nusp(2)"> <input type="button" value="E-mail" onclick="mail(2)"> <input type="text" name="" id="lgd" readonly>
+                    </p>
+                </article>
+            </section>
+            <footer id="rodape">
+                <p>
+                    Copyright 2020 - by Shunji Yamazaki
+                    </br>
+                    <a href="https://www.facebook.com/xundyyy/" target="blank"> Facebook</a> | 
+                    <a href="https://www.instagram.com/shunjiyamazaki/" target="blank"> Instagram</a>
+                </p>
+            </footer>
+        </div>
+    <script src="funcoes.js"></script>   
+    <script>
+       
+        function nusp (n){
+            switch (n) {
+                case 1:
+                num = 10264289
+                document.getElementById('fsy').value = num
+                break
+                case 2:
+                num = 10299402
+                document.getElementById('lgd').value = num
+                break
+            }
+        }
+        function mail(n) {
+            switch (n){
+                case 1:
+                num = "fabiosyamazaki@usp.br"
+                document.getElementById('fsy').value = num
+                break
+                case 2:
+                num = "leonardogdias@usp.br"
+                document.getElementById('lgd').value = num
+                break
+            }
+        }
+        
+    </script>
+    </body>
+</html>
