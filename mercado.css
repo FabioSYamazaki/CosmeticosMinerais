@@ -9,7 +9,7 @@ figure span {
     color: rgb(41, 41, 41);
     position: absolute;
     font-size: 6pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 figure {
@@ -25,8 +25,7 @@ figure:hover {
 }
 /*==============================================================================================*/
 figure#fotomercado1 span{
-    width: 110px;
-    text-indent: 15px;
+    width: 90px;
     margin-left: 15px;
     margin-top: 15px;
     
@@ -51,9 +50,8 @@ figure#fotomercado1 img{
 
 /*==============================================================================================*/
 figure#fotomercado2 span{ 
-    width: 100px;
-    text-indent: 15px;
-    margin-left: -260px;
+    width: 80px;
+    margin-left: -240px;
     margin-top: 15px;
 }
 figure#fotomercado2:hover span{
@@ -100,10 +98,9 @@ figure#fotomercado3:hover span{
 }
 figure#fotomercado3 span{
     font-size: 8pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 110px;
     color: rgb(41, 41, 41);
-    text-indent: 15px;
+    
     margin-left: 15px;
     margin-top: 15px;
     margin-top: 60px;
@@ -126,10 +123,10 @@ figure#fotomercado4 img{
     
 }
 figure#fotomercado4 span{ 
-    width: 100px;
-    text-indent: 15px;
-    margin-left: -260px;
+    width: 80px;
+    margin-left: -245px;
     margin-top: 15px;
+    text-align: right;
 }
 figure#fotomercado4:hover span{
     opacity: 1;
@@ -156,7 +153,7 @@ figure#fotomercado5 img{
 figure#fotomercado5 span{ 
     font-size: 1pt;
     width: 100px;
-    text-indent: 15px;
+    
 }
 figure#fotomercado5:hover span{
     opacity: 1;
