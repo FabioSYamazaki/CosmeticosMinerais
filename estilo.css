@@ -9,6 +9,9 @@ p {
     text-indent: 50px;
     line-height: 20px;
 }
+.partes {
+    line-height: 25px;
+}
 body{
     color: rgba(0, 0, 0, 1);
     background-color: rgb(255, 255, 255);
